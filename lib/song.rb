@@ -62,10 +62,10 @@ end
 def self.new_from_filename(filename)
   # split_filename = filename.chomp(".mp3").split(" - ")
   split_filename = filename.chop.chop.chop.chop.split(" - ")
-  #it is removing 
-
-
+  #first element is artist and second element is the song 
 end
+
+
 
 end 
 
