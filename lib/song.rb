@@ -60,8 +60,8 @@ def self.alphabetical  #return it all in alphabetical order
 end
 
 def self.new_from_filename(filename)
-  split_filename = file.name.chomp(".mp3")
-  split
+  split_filename = filename.chomp(".mp3")
+  split_filename = filename.chop.chop.chop.chop.split(" - ")
   #it is removing 
 
 
