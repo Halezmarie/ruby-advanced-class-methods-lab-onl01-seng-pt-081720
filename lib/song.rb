@@ -21,7 +21,7 @@ end
     song = self.new
     song.name = name 
     song
-  end
+  end #created one 
   
   
   def.create_by_name(name)
@@ -29,7 +29,7 @@ end
   song.name = name 
   song.save
   song
-end
+end #then saved it 
 
 
 #saving to the object. Self is the object, the class method is @@all. We are calling the class method through the instance method 
