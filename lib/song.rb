@@ -10,7 +10,7 @@ class Song
     self.class.all << self
   end
 
-def self
+def self.create
   song = self.new # built in method
   
 end
