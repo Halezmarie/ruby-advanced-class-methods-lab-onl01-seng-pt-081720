@@ -71,6 +71,7 @@ end
 
 
 
+
 def self.destroy_all
   self.all.clear
   # or I can do @@all.clear 
