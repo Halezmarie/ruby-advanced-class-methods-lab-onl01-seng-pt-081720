@@ -59,7 +59,7 @@ def self.alphabetical  #return it all in alphabetical order
 #easier to remember! ^
 end
 
-def self.new_from_filename(filename)
+def self.create_from_filename(filename)
   # split_filename = filename.chomp(".mp3").split(" - ")
   split_filename = filename.chop.chop.chop.chop.split(" - ")
   #first element is artist and second element is the song 
