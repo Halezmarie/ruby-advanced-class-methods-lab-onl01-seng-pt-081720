@@ -39,6 +39,14 @@ def self.find_by_name(name) #now we are finding the songs
  #grabbing element from array and returning it 
  end
 
+def self.find_or_create_by_name(name)
+  if self.find_name_name(name)
+    self.find_by_name(name)
+  else
+    self.create_by_name(name)
+end
+
+
 end 
 
 
