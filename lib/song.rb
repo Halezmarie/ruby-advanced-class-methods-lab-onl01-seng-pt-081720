@@ -55,6 +55,7 @@ def self.alphabetical  #return it all in alphabetical order
 @@all.sort{ |a,b| a.name <=> b.name }
 #going through ruby telling it to sort by name 
 # <=> spaceship method   
+#another way is to use @@sort_by{ |song| song.name }
 end
 
 
