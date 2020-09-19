@@ -32,7 +32,7 @@ end
 end #then save it 
 
 def self.find_by_name(name) #now we are finding the songs 
-##b.pry #used binding pry to get one of the songs out 
+##binginding.pry #used binding pry to get one of the songs out 
  @@all.detect{ |song| song.name == name}
  #find an array of objects, could've used .find
  # |song| each song object, going to pass them in 
