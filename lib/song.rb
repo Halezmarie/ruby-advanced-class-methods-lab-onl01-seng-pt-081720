@@ -24,7 +24,7 @@ end
   end #created one 
   
   
-  def.create_by_name(name)
+  def self.create_by_name(name)
   song = self.new
   song.name = name 
   song.save
@@ -33,6 +33,6 @@ end #then save it
 
 end 
 
-end 
+
 
 #saving to the object. Self is the object, the class method is @@all. We are calling the class method through the instance method 
