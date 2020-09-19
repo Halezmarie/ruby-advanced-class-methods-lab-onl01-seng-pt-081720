@@ -18,3 +18,6 @@ def self.create
 end
   
 end
+
+
+#saving to the object. Self is the object, the class method is @@all. We are calling the class method through the instance method 
