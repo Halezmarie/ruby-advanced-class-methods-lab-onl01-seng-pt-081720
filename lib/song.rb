@@ -49,6 +49,16 @@ def self.find_or_create_by_name(name)
 
 self.find_by_name(name) || self.create_by_name(name)
 end
+# to stop it from repeating 
+
+def self.alphabetical  #return it all in alphabetical order
+@@all.each.name
+  
+  
+  
+  
+end
+
 
 end 
 
