@@ -52,8 +52,8 @@ end
 # to stop it from repeating 
 
 def self.alphabetical  #return it all in alphabetical order
-@@all.sort { |a,b| a.name b.name }
-  
+@@all.sort{ |a,b| a.name <=> b.name }
+# <=> spaceship method   
 end
 
 
