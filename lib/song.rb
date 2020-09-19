@@ -32,7 +32,7 @@ end
 end #then save it 
 
 def self.find_by_name(name) #now we are finding the songs 
-binding.pry
+binding.pry #used binding pry to get one of the songs out 
  @@all.detect #an array of objects
  end
 
