@@ -29,8 +29,9 @@ end
   song.name = name 
   song.save
   song
+end #then save it 
+
 end 
-end #then saved it 
 
 
 #saving to the object. Self is the object, the class method is @@all. We are calling the class method through the instance method 
