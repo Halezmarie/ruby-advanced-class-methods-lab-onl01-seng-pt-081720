@@ -56,8 +56,15 @@ def self.alphabetical  #return it all in alphabetical order
 #going through ruby telling it to sort by name 
 # <=> spaceship method   
 #another way is to use @@sort_by{ |song| song.name }
+#easier to remember! ^
 end
 
+def self.new_from_filename(filename)
+  split_filename = file.name.chomp(".mp3")
+  #it's doing a slice 
+
+
+end
 
 end 
 
