@@ -41,11 +41,11 @@ def self.find_by_name(name) #now we are finding the songs
  
  
 def self.find_or_create_by_name(name)
-  if self.find_by_name(name)
-    self.find_by_name(name)
-  else 
-    self.create_by_name(name)
-end
+#   if self.find_by_name(name)
+#     self.find_by_name(name)
+#   else 
+#     self.create_by_name(name)
+# end
 
 end 
 
