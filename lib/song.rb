@@ -61,7 +61,7 @@ end
 
 def self.new_from_filename(filename)
   split_filename = file.name.chomp(".mp3")
-  #it's doing a slice 
+  #it is removing 
 
 
 end
