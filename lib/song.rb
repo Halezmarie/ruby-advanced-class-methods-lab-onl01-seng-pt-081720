@@ -7,11 +7,13 @@ class Song
   end
 
   def save
-    self.class.all << self #pushes whatever it is 
+    self.class.all << self #pushes whatever it is into the @@all
   end
 
 def self.create
   song = self.new # built in method
+  song.save
+  song
   
 end
   
