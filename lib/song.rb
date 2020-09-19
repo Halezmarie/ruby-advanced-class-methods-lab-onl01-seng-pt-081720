@@ -71,7 +71,8 @@ def self.create_from_filename(filename)
 end
 
 def self.destroy_all
-  self.all.clear 
+  self.all.clear
+  # or I can do @@all.clear 
 end
 
 end 
